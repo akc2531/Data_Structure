@@ -1,0 +1,163 @@
+Introduction
+Algorithms - Textual representation of flow of logic.
+Implementation- The logic put into code using Programming Language.
+
+Operations-
+1)Traversing- Visiting an element.
+2) Searching- Searching a particular element in given ds. DS can be linked list or arrays or others.
+3)Inserting
+4)Deleting
+5)Sorting-Arranging elements either in ascending or descending order.
+6)Merging-Combining into single
+
+Important Ds:- 
+Linear DS
+1)Arrays - Number of elements are known.
+2)Stacks - LIFO
+3)Queues- - FIFO
+4)Linked Lists - Number of elements are Unknown.
+Non- Linear DS
+5)Trees
+6)Graphs
+
+Data Structure :- A data structure is a specialized format for organizing, processing, retrieving and storing data. 
+
+Arrays :- An arrays is a finite set of homogeneous elements stored in contiguous memory locations.
+
+Homogeneous - same type of elements.
+
+It is highly useful when we want to store multiple values belonging too same type.
+
+2d arrays - A double dimensional Array is a collection of rows and column.
+
+Stack :--
+A stack is a ds that follows the principle oof LIFO.
+Inserting an element in stack is referred to as pushing.
+Deleting an element from a stack is known as popping.
+The new element is inserted at the top and while deleting the element operation has to be done from top only.
+
+Stacks : -  
+5        Insertion is in the following order
+4          where 0-5 is index value
+3
+2
+1
+0
+
+top concept in stack :- if the stack is emty then top will be -1 and if only one value then top =0 
+
+In above case for insertion:--
+-1-Initial no value
+0 - first
+1
+2
+3
+4
+5
+Now deletion if there then,
+after first rem 
+4
+3
+2
+1
+0
+-1--- Empty
+
+
+Queues :- Queues is a ds that follows the principle of FIFO.
+There are two elements front and rear in this.
+An element is removed from front and an element is inserted from rear.
+Queues eg in real life - if we there is queue of line in mc donalds then first person is the only one to get the food and to be removed from the queue.
+
+Queues strucure:-
+0,1,2,3,4
+
+Initially both the element front and rear will be -1 if there is no element present.
+
+Now for very first insertion both front and rear will increment by 1.
+
+After that it will be only follow the principle  if insertion is there then oonly rear inc by 1 and front remain as it is like prev value.
+
+Operation of front and rear in queue :-
+Insertion
+front rear
+-1    -1
+0      0
+0      1
+0      2
+0      3
+Deletion:-
+front rear coont-n
+front rear
+0      3   -- from prev table initially
+1      3   -- now froont inc and rear remain same
+2      3
+3      3
+
+Linked list :--  Linked List consists of Nodes . It is of Two parts :-
+1)data part - In this , data is stored.
+2)link part- In this , address of next node is to be stored.
+
+Always, Last part nodes link is NULL because no next node will be there at last node so it the link part will be null.
+
+Circular Linked List :- It is same as Linked List ,the only difference is that the last node link part contains the address of first node.
+
+In simple words, the last node is connected with first node.
+
+Doubly linked list :- It consists of three parts:-
+1)data part - same function used to store data.
+2)prev part - contains address of prev node.
+3)link part - contains address of next node.
+
+For very first node , the prev part is NULL.
+and for very last node, the link part is NULL.
+
+Note :- Node are stored in scattered memoory location while arrays are stored in contiguous memory locations.
+
+Non Linear ds- 
+
+Trees- Here the elements are not stored in linear manner but the elements are stored in heirarchial structural manner.
+
+Each element of tree is called Node.
+
+The very first element or node which is present at top is known as super parent node.
+
+Leaf Nodes or Terminal Nodes  - The node which does not have any child is called leaf node.
+
+
+Binary Tree- A binary tree is a tree where a parent can have maximum two child nodes. In simple words , it can either have two child nodes or one.
+
+Grpah :- 
+
+It is non-linear ds.
+
+Here each elements or nodes is called vertices.
+
+Divided into:-
+1)Undirected Graph :- Here no path is mentioned.
+2)Directed Graph :- Here path is shown.
+
+Edges - An edge is the connection b/w two nodes of the network.
+An edge of a directed graph has oonly a unidirectional path.
+
+
+Computer Memory - They are used to store data.
+Divided into two :--
+1)Primary Memory 2)Secondary Memory
+
+1)Primary Memory - Main Memeory
+Access at lightening speed
+Quite Costly
+Much less than secondary memory
+
+
+2) Secondary Memory :-Mass Storage Memory
+Stores Volyminous data
+Much Slower
+Much Cheaper.
+
+Primary Memory - Now divide into :-
+RAM                      ROM
+1)Temp Mem.            1)Perm Memmory
+2)Data lost if power   2) Data not lost if power  
+ supply is lost           is lost.
