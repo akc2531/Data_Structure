@@ -15,6 +15,52 @@ This is to observe the behaviour of space and time complexities as input grows.
 
 for(i=0;i<10;i++) -- here O(10) will be there not O(n) so we can sat O(1) also if asked because constant is there
 
+Single and 2d Arrays:-----------------
+
+1)Function :- A function is a sequence of program instructions that performs a specific task.
+
+Types of function:-
+1)Standard Library Function
+2)User-defined functions
+
+1)Standard Library Functions- They are inbuilt functions that are present within the programming language
+In c :- strlen(),strcpy() amd strcat()
+In java:-print(),sqrt(),pow() etc
+
+2)User defined function- they are define by the user inorder to perfom some specific task.
+
+What is an IDE?
+IDE stands for Integrated Development Environment, it is a special type of software which helps in writing, editing , compiling and executing the program of a particular programming language.
+
+1d array int arr[9]; in c 
+int arr[]=new int[9];   Here 9 is length of array. 
+in java in braces there is subsript or index  0,12,----8
+
+In c if we want upto 2 dp :-  %.2f can be used
+
+%lf -- for doouble type is uded
+%d -- for int
+
+Binary Search:- For binary search the element has to be arranged either in ascending or descending order then only binary search can be applied.
+
+linear search - For linear search for searching the ordewr doesnt matter.
+
+
+Interchange of variables:-- 5methods
+1) int temp=a, a=b, b=temp;
+2) a= a+b; b=a-b; a=a-b;
+3)a=a*b, b=a/b , a=a/b;
+4)a=a^b , b=a^b , a=a^b;
+5) single b=a+b-(a=b);
+
+Bubble Sort :- In bubble sort adjacent element are coompared for eg in first loop 0,1 compared then 1,2 and so on 
+In second same process is repeated 0,1 and 1,2 and so on.
+
+Selection Sort:-In selection firsst element is compared with all other elements and the shortest and one is then find out.
+Foor eg in first iteration that is 0th the 0 th elementis compared with in order 0,1 and 0,2 and then 0,3 and soo oon
+Now again 1,2 and 1,3 and so on....
+
+A sorting technique with n-1 elements logic is called bubble sort or slection sort
 
 
 
