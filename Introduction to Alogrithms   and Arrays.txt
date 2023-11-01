@@ -1,0 +1,22 @@
+Introduction to Alogrithms   and Arrays :--
+
+diff b/w return and end statements in algo
+the return statement terminates the current function and return value while end terminates the main function in class in algo.
+
+
+Complexity of Algorithms:-
+1)Time Complexity:- Amount of time taken by Algo. to complete the tasks is called Time Complexity.
+2)Space Complexity:- Amount of space taken by Algo. to Complete the task.
+
+
+Big O Notation :- 
+This is the mathematical notation to evaluate the algo.
+This is to observe the behaviour of space and time complexities as input grows.
+
+for(i=0;i<10;i++) -- here O(10) will be there not O(n) so we can sat O(1) also if asked because constant is there
+
+
+
+
+
+
